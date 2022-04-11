@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetProBoostrap 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="shortcut icon" type="image/png" href="image/logo-navbar/logo.061b39cb.svg"/>
+</head>
+<body>
+
+<!-- header -->
+<header class="text-white header_mobile" style="background-color: #0066DE;">
+    <div class="container container-md h-full mx-auto ">
+        <div class="justify-between header__mobile">
+            <ul class=" d-flex justify-content-start gap-0 gap-sm-4 py-0 py-sm-2 d-sm-flex flex-column flex-sm-row">
+                <li class="text-white flex d-flex">
+                    <img class="icon1" src="image/header-icon/icon-phone.0467253c.svg" alt="1800 599 941">
+                    <a href="" class="text1 btn text-white text-gray-100 whitespace-nowrap text-[10px] text-[9px] md:text-base">1800 599 941</a>
+                </li>
+                <li class="text-white flex d-flex header___mobile">
+                    <img class="icon2" src="image/header-icon/icon-mail.74ba5c8b.svg" alt="benhvien.thuypetpro198@gmail.com">
+                    <a href="" class="text2 btn text-white">benhvien.thuypetpro198@gmail.com</a>
+                </li>
+                <!-- <li class=" flex d-flex ms-auto">
+                    <img src="image/header-icon/icon-zalo.0f5e2ca1.svg" alt="">
+                </li> -->
+            </ul>
+        </div>
+    </div>
+</header>
+
+<!-- navbar -->
+<nav class=" shadow-navbar bg-white navbar-light text-primary" id="myHeader" style="margin-top: -16px;">
+    <div class="d-lg-none logo_center-mobile ">
+        <div class="">
+            <button class="navbar-toggler btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon  "></span>
+            </button>
+        </div>
+        <div>
+            <a href="" class="navbar-brand d-lg-flex ">
+                <img class="bg-white" src="image/logo-navbar/logo.061b39cb.svg" alt="logo">
+            </a>
+        </div>
+        <div>
+            <a href="" class=" bg-white" data-bs-toggle="collapse" data-bs-target="#demo">
+                <i class=" fas fa-search" ></i>
+            </a>
+        </div>
+    </div> 
+    <div class="container">
+        <div class="navbar navbar-expand-lg navbar-dark py-1 mx-3 gap-4" >
+            <a href="" class="navbar-brand d-none d-lg-block d-md-none d-sm-none">
+                <img  src="image/logo-navbar/logo.061b39cb.svg" alt="logo">
+            </a>
+            <div class="collapse navbar-collapse navbar-mobile" id="collapsibleNavbar">
+                <ul class="navbar-nav text-primary gap-xl-5">
+                    <li class="nav-item"><a href="" class="nav-link text-primary">Trang Chủ</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="" class="nav-link text-primary "role="button" data-bs-toggle="dropdown">Câu Chuyện PetPro <span class="dropdown-toggle"></span></a>
+                        <ul class="dropdown-menu text-capitalize ">
+                            <li class="dropdown-item"><a href="" class="nav-link text-primary">Giới thiệu bệnh viện</a></li>
+                            <li class="dropdown-item"><a href="" class="nav-link text-primary">Đội ngũ bác sĩ</a></li>
+                            <li class="dropdown-item"><a href="" class="nav-link text-primary">Trang thiết bị hiện đại</a></li>
+                            <li class="dropdown-item"><a href="" class="nav-link text-primary">Khách hàng nói về Petpro</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown dropdown1">
+                        <a href="" class="nav-link text-primary "role="button" data-bs-toggle="dropdown">Dịch Vụ Bệnh Viện<span class="dropdown-toggle"></span></a>
+                        <div >
+                            <ul class="dropdown-menu text-capitalize">
+                                <div class="">
+                                    <li class="dropdown-item"><a href="" class="nav-link text-primary">Khoa Nhiễm</a></li>
+                                    <li class="dropdown-item"><a href="" class="nav-link text-primary">Khoa Ngoại</a></li>
+                                    <li class="dropdown-item"><a href="" class="nav-link text-primary">X X-Quang</a></li>
+                                    <li class="dropdown-item"><a href="" class="nav-link text-primary">Siêu âm</a></li>
+                                    <li class="dropdown-item"><a href="" class="nav-link text-primary">Khám Bệnh tại nhà</a></li>
+                                    <li class="dropdown-item"><a href="" class="nav-link text-primary">Bảo hiểm</a></li>
+                                    <li class="dropdown-item"><a href="" class="nav-link text-primary">Dịch vụ lưu chuồng</a></li>
+                                    <li class="dropdown-item"><a href="" class="nav-link text-primary">Thuốc kê toa</a></li>
+                                    <li class="dropdown-item"><a href="" class="nav-link text-primary">Cấp cứu 24/7</a></li>
+                                </div>
+                                <div class="">
+                                    <li class="dropdown-item"><a href="" class="nav-link text-primary">Khoa Nội</a></li>
+                                    <li class="dropdown-item"><a href="" class="nav-link text-primary">Tiêm phòng</a></li>
+                                    <li class="dropdown-item"><a href="" class="nav-link text-primary">Xét nghiệm</a></li>
+                                    <li class="dropdown-item"><a href="" class="nav-link text-primary">Chuẩn đoán cận lâm sàng</a></li>
+                                    <li class="dropdown-item"><a href="" class="nav-link text-primary">Chăm sóc răng miệng</a></li>
+                                    <li class="dropdown-item"><a href="" class="nav-link text-primary">Xuất cảnh</a></li>
+                                    <li class="dropdown-item"><a href="" class="nav-link text-primary">Grooming</a></li>
+                                    <li class="dropdown-item"><a href="" class="nav-link text-primary">Đào tạo</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a href="" class="nav-link text-primary" role="button" data-bs-toggle="dropdown">Shop<span class="dropdown-toggle"></span></a>
+                        <ul class="dropdown-menu text-capitalize ">
+                            <li class="dropdown-item"><a href="" class="nav-link text-primary">Thức ăn cho chó</a></li>
+                            <li class="dropdown-item"><a href="" class="nav-link text-primary">Thức ăn cho mèo</a></li>
+                            <li class="dropdown-item"><a href="" class="nav-link text-primary">Mỹ phẩm cho thú cưng</a></li>
+                            <li class="dropdown-item"><a href="" class="nav-link text-primary">Đồ dùng nuôi chó</a></li>
+                            <li class="dropdown-item"><a href="" class="nav-link text-primary">Đồ dùng nuôi mèo</a></li>
+                            <li class="dropdown-item"><a href="" class="nav-link text-primary">Dụng cụ Grooming</a></li>
+                            <li class="dropdown-item"><a href="" class="nav-link text-primary">Thuốc đặc trị</a></li>
+                            <li class="dropdown-item"><a href="" class="nav-link text-primary">Sản phẩm khác</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="" class="nav-link text-primary"role="button" data-bs-toggle="dropdown">Kiến Thức Thú Cưng<span class="dropdown-toggle"></span></a>
+                        <ul class="dropdown-menu text-capitalize">
+                            <li class="dropdown-item"><a href="" class="nav-link text-primary">Kiến thức thú cưng</a></li>
+                            <li class="dropdown-item"><a href="" class="nav-link text-primary">dịch vụ</a></li>
+                            <li class="dropdown-item"><a href="" class="nav-link text-primary">thông báo</a></li>
+                            <li class="dropdown-item"><a href="" class="nav-link text-primary">khuyến mãi</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item"><a href="" class="nav-link text-primary">Đặc Lịch Hẹn</a></li>
+                    <li class="nav-item"><a href="" class="nav-link text-primary">Liên Hệ</a></li>
+                    <li class="nav-item ">
+                        <a href="" class=" nav-link text-black d-none d-lg-block logo_center-mobile" data-bs-toggle="collapse" data-bs-target="#demo">
+                            <i class="ms-1 fas fa-search" ></i>      
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="demo" class="container-fluid collapse bg-light">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control border-primary" placeholder="Search">
+            <button class="btn btn-success bg-primary border-primary" type="submit"><i class="fas fa-search" ></i> </button> 
+        </div>
+    </div>
+</nav>
+
+<!-- carausel "Silder" -->
+<section id="slider-cpk" class="carousel slide bg-light" data-bs-ride="carousel">
+
+<!-- Indicators/dots -->
+<div class="carousel-indicators">
+    <button type="button" data-bs-target="#slider-cpk" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#slider-cpk" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#slider-cpk" data-bs-slide-to="2"></button>
+</div>
+
+<!-- The slideshow/carousel -->
+<div class="carousel-inner silder">
+    <div class="carousel-item active thumbnail ">
+        <img src="image/slider/slider1.jpg" alt="Los Angeles" class="d-block img-responsive" style="width:100%">
+        <div class="text__slider container caption text-end text-primary">
+            <p class="">Trụ Sở Chính</p>
+            <p class="">Bệnh Viện Thú Y PetPro Quận Tân Phú</p>
+            <p class="text-dark text_slider">Vì thú cưng không ngừng vươn tới</p>
+            <button class="btn-time btn btn-lg btn-primary rounded-pill w-25">ĐẶC LỊCH HẸN</button>
+        </div>
+    </div>
+        <div class="carousel-item thumbnail">
+                <img src="image/slider/slider2.webp" class="d-block img-responsive" style="width:100%">
+                <div class=" container caption text-end text-primary">
+                    <button class="btn btn-lg btn-primary rounded-pill readMore2" style="width: 20%;">XEM THÊM</button>
+                </div>
+        </div>
+        
+        <div class="carousel-item thumbnail ">
+            <img src="image/slider/slider3.jpg" alt="New York" class="d-block img-responsive" style="width:100%">
+            <div class="  container caption text-end text-primary">
+                <button class="btn btn-lg btn-primary rounded-pill readMore2" style="width: 20%;">XEM THÊM</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- story -->
+<section class="text-primary pt-5 bg-white text-center">
+    <div class="container">
+        <div class="row">
+            <h1 class="text-center">Câu Chuyện Về PetPro</h1>
+            <img class="text-center pt-2 " width="35" height="35"  src="image/story/icon-foot.2549ce2f.svg" alt="">
+            <div class="pt-5 col-lg-6  d-lg-flex ">
+                    <img class="zoom" src="image/story/1.png "  alt="">
+                <div class="pt-5">
+                    <img class="ms-4 float-start" src="image/story/icon1.svg" alt=""><br><br>
+                    <div class="ms-4 text-start">
+                        <h3 class="pt-2 pb-1"><a class="text-decoration-none  text-blue-600" href="">Giới Thiệu Bệnh Viện</a></h3>
+                        <p class="text-gray-600 text-black">Hệ thống PetPro được thành lập từ năm 1998 với 6 bệnh viện trải dài qua 3 quận Tân Phú, Tân Bình, Bình Tân</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 col-lg-6  d-lg-flex">
+                <img  class="zoom" src="image/story/2.png "  alt="">
+                <div class="pt-5">
+                    <img class="ms-4 float-start " src="image/story/icon2.svg" alt=""><br><br>
+                    <div class="ms-4 text-start">
+                        <h3 class="pt-2 pb-1"><a class="text-decoration-none  text-blue-600" href="">Trang Thiết Bị Hiện Đại</a></h3>
+                        <p class="text-gray-600 text-black">PetPro có đầy đủ các trang thiết bị tân tiến và hiện đại bậc nhất tại Việt Nam. Được cấp các chứng chỉ chuyên biệt.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pt-5 col-lg-6  d-lg-flex">
+                <img  class="zoom" src="image/story/3.png "  alt="">
+                <div class="pt-5">
+                    <img class="ms-4 float-start" src="image/story/icon3.svg" alt=""><br><br>
+                    <div class="ms-4 text-start">
+                        <h3 class="pt-2 pb-1"><a class="text-decoration-none  text-blue-600" href="">Đội Ngũ Bác Sĩ</a></h3>
+                        <p class="text-gray-600 text-black">Với đội ngũ bác sĩ tận tâm có chuyên môn cao. Được những giáo sư, bác sĩ nổi tiếng trên thế giới đào tạo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 col-lg-6  d-lg-flex">
+                <img  class="zoom" src="image/story/4.png "  alt="">
+                <div class="pt-5">
+                    <img class="ms-4 float-start" src="image/story/icon4.svg" alt=""><br><br>
+                    <div class="ms-4 text-start">
+                        <h3 class="pt-2 pb-1"><a class="text-decoration-none  text-blue-600" href="">Khách Hàng Nói Về PetPro</a></h3>
+                        <p class="text-gray-600 text-black">PetPro luôn tập trung để chăm sóc thú cưng của bạn, dịch vụ chăm sóc rất tốt, trang thiết bị hiện đại.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="pt-5 bg-white"></div>
+
+ <!-- banner 2 -->
+<section class="card text-white text-center">
+    <img src="image/story/banner-2.jpg" class="card-img w-100 bg-cover" alt="...">
+        <div class="btn-service card-img-overlay text-center">
+        <h2 class="card-title text-danger">Dịch Vụ Cấp Cứu 24/7</h2>
+        <h6 class="card-tex text-black">Hotline: 1800 500 941</h6>
+        <button type="button" class="btn-callNow btn btn-primary rounded-pill mx-auto col-2">Gọi Ngay</button>
+    </div>      
+</section>
+
+<!-- letter -->
+<section class="bg-white text-primary text-center py-5">
+    <div class="container">
+        <div class="row">
+            <h1 class="">Chuyên Khoa</h1>
+            <!-- <img class="text-center pt-2" width="35" height="35"  src="image/story/icon-foot.2549ce2f.svg" alt=""> -->
+
+
+            <div class="pt-5  col-xl-4 col-lg-6 col-md-6 col-sm-12 ">
+                <img class="zoom" src="image/story/11.png"   alt="">
+                <h3 class="text-center pt-5">Khoa Nhiễm</h3>
+            </div>
+
+            <div class="pt-5 col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <img class="text-center zoom"  src="image/story/22.png" alt="">
+                <h3 class="text-center pt-5">Khoa Nội</h3>
+            </div>
+            
+
+            <div class="pt-5 col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <img src="image/story/33.png" class="zoom"  alt="">
+                <h3 class="text-center pt-5">Khoa Ngoại</h3>
+            </div>
+
+            <div class="pt-5 col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <img src="image/story/44.png" class="zoom"  alt="">
+                <h3 class="text-center pt-5">Tiêm Phòng</h3>
+            </div>
+
+            <div class="pt-5 col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <img src="image/story/55.png" class="zoom"  alt="">
+                <h3 class="text-center pt-5">X Quang</h3>
+            </div>
+            
+
+            <div class="pt-5 col col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <img src="image/story/66.webp" class="zoom"  alt="">
+                <h3 class="text-center pt-5">Xét Nghiệm</h3>
+            </div>     
+        </div>
+    </div>
+</section>
+
+<!-- number -->
+<section class="p-5 bg-primary text-white text-center">
+    <div class="container-fluid">
+        
+        <div class="row">
+
+            <div class="swiper mySwiper11">
+                <div class="swiper-wrapper bg-primary text-white">
+                    <div class="swiper-slide bg-primary text-white text-center">
+                        <div class=" col col-3">
+                            <h1>24</h1>
+                            <h4>Năm Kinh Nghiệm</h4>
+                        </div>    
+                    </div>
+                    <div class="swiper-slide bg-primary text-white text-center">
+                        <div class=" col col-3">
+                            <h1>300,000</h1>
+                            <h4>Ca Phục Hồi</h4>
+                        </div>    
+                    </div>
+                    <div class="swiper-slide bg-primary text-white text-center ">
+                        <div class=" col col-3">
+                            <h1>100</h1>
+                            <h4>Nhân Viên</h4>
+                        </div>    
+                    </div>
+                    <div class="swiper-slide bg-primary text-white text-center">
+                        <div class=" col col-3">
+                            <h1>7</h1>
+                            <h4>Chi Nhánh</h4>
+                        </div>    
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            
+
+            <!-- <div class=" col col-3">
+                <h1>300,000</h1>
+                <h5>Ca Phục Hồi</h5>
+            </div>
+
+            <div class=" col col-3">
+                <h1>100</h1>
+                <h5>Nhân Viên</h5>
+            </div>
+
+            <div class=" col col-3">
+                <h1>7</h1>
+                <h5>Chi Nhánh</h5>
+            </div> -->
+            
+        </div>
+    </div>
+</section>
+
+<!-- service -->
+<section class="bg-white text-primary text-center py-5">
+    <div class="container">
+        <div class="row">
+            <h1 class="">Dịch Vụ</h1>
+            <img class="text-center pt-2" width="35" height="35"  src="image/story/icon-foot.2549ce2f.svg" alt="">
+
+
+            <div class="pt-5 col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <img src="image/story/111.png" class="zoom"  alt="">
+                <h3 class="text-center pt-4">Khám Bệnh Tại Nhà</h3>
+            </div>
+
+            <div class="pt-5 col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <img src="image/story/222.png" class="zoom"  alt="">
+                <h3 class="text-center pt-4">Chăm Sóc Răng Miệng</h3>
+            </div>
+            
+
+            <div class="pt-5 col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <img src="image/story/333.png" class="zoom"  alt="">
+                <h3 class="text-center pt-4">Bảo Hiểm</h3>
+            </div>
+
+            <div class="pt-4 col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <img src="image/story/444.png" class="zoom"  alt="">
+                <h3 class="text-center pt-4">Xuất Cảnh</h3>
+            </div>
+
+            <div class="pt-4 col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <img src="image/story/555.png" class="zoom"  alt="">
+                <h3 class="text-center pt-4">Dịch Vụ Lưu Chuồng</h3>
+            </div>
+            
+
+            <div class="pt-4 col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <img src="image/story/666.png" class="zoom"  alt="">
+                <h3 class="text-center pt-4">Grooming</h3>
+            </div>     
+        </div>
+    </div>
+</section>
+
+<!-- letter -->
+<section class="bg-white text-primary text-center p-5">
+    <div class="container-fluid">
+        <div class="row">
+            <h1 class="">Các Chứng Nhận</h1>
+            <img class="text-center pt-2" width="35" height="35"  src="image/story/icon-foot.2549ce2f.svg" alt="">
+            <div class="swiper mySwiper pt-5">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="image/story/cn1.webp" class="w-full max-w-[225px] lg:max-w-[400px] xl:max-w-full" alt=""></div>
+                    <div class="swiper-slide"><img src="image/story/cn2.webp" class="w-full max-w-[225px] lg:max-w-[400px] xl:max-w-full" alt=""></div>
+                    <div class="swiper-slide"><img src="image/story/cn3.webp" class="w-full max-w-[225px] lg:max-w-[400px] xl:max-w-full" alt=""></div>
+                    <div class="swiper-slide"><img src="image/story/cn4.webp" class="w-full max-w-[225px] lg:max-w-[400px] xl:max-w-full" alt=""></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Kiến thức -->
+<section class="bg-white text-primary text-center p-5">
+    <div class="container-fluid">
+        <div class="row">
+                <h1 class="">Kiến Thức</h1>
+            <img class="text-center pt-2" width="35" height="35"  src="image/story/icon-foot.2549ce2f.svg" alt="">
+            <div class="swiper mySwiper22 pt-5">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="card" style="width: 32rem;">
+                        <img src="image/news/tt1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title pt-4 text-black">Cắt đuôi chó chihuahua lúc nào là an toàn</h5>
+                          <span class="btn btn-primary rounded-pill my-2 ">kiến thức thú cưng</span>
+                          <p class="card-text text-black-50">Một số giống chó khi nuôi thường cũng nghĩ là việc cắt đuôi từ nhỏ như Boxer, Rot, Fox, Doberman, Cocker Spaniel … đặc biệt là cắt đuôi chó Chihuahua. Vậy có cần thiết...</p>
+                          <a href="#" class="btn" style=""><ins>Đọc Thêm</ins></a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card" style="width: 32rem;">
+                        <img src="image/news/tt2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title pt-4 text-black">Các bước trước trong và sau khi tắm cho chó</h5>
+                          <span class="btn btn-primary rounded-pill my-2 ">kiến thức thú cưng</span>
+                          <p class="card-text text-black-50">Tắm cho chó nghe qua ai cũng nghĩ là việc đơn giản. Nhưng bạn có chắc việc tắm cho chó của bạn đúng cách không? Nếu kỹ năng người chủ tốt sẽ có thể giú..</p>
+                          <a href="#" class="btn" style=""><ins>Đọc Thêm</ins></a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card" style="width: 32rem;">
+                        <img src="image/news/tt3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title pt-4 text-black">Phương pháp huấn luyện chó nâng cao</h5>
+                          <span class="btn btn-primary rounded-pill my-2 ">kiến thức thú cưng</span>
+                          <p class="card-text text-black-50">Bài viết này chia sẻ tới các bạn vài lệnh và phương pháp huấn luyện chó nâng cao rất hay và cần thiết cho chó cưng. Ở bài viết “Tại sao bạn thất bại còn những..</p>
+                          <a href="#" class="btn " style=""><ins>Đọc Thêm</ins></a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                 <div class="swiper-pagination1"></div>
+              </div>
+        </div>
+    </div>
+</section>
+
+<!-- logo -->
+<section class="bg-white text-center">
+    <div class="container">
+        <div class="row">
+            <div class="swiper mySwiper2 pt-5">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="image/clientsCarousel/1.webp" class="w-full max-w-[225px] lg:max-w-[400px] xl:max-w-full" alt=""></div>
+                    <div class="swiper-slide"><img src="image/clientsCarousel/2.webp" class="w-full max-w-[225px] lg:max-w-[400px] xl:max-w-full" alt=""></div>
+                    <div class="swiper-slide"><img src="image/clientsCarousel/3.webp" class="w-full max-w-[225px] lg:max-w-[400px] xl:max-w-full" alt=""></div>
+                    <div class="swiper-slide"><img src="image/clientsCarousel/4.webp" class="w-full max-w-[225px] lg:max-w-[400px] xl:max-w-full" alt=""></div>
+                    <div class="swiper-slide"><img src="image/clientsCarousel/5.webp" class="w-full max-w-[225px] lg:max-w-[400px] xl:max-w-full" alt=""></div>
+                    <div class="swiper-slide"><img src="image/clientsCarousel/6.webp" class="w-full max-w-[225px] lg:max-w-[400px] xl:max-w-full" alt=""></div>
+                </div>
+                <div class="swiper-pagination2"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Back To Top -->
+<div title="Về đầu trang" id="top-up">
+    <i class="fa-solid fa-angles-up"></i>
+</div>
+
+<!-- footer -->
+<section class="footer text-black-50 bg-white text-start text-center pt-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="border border-gray-1100">
+            </div>
+            <div class="col-xl-3 col-md-12 col-sm-12 text-center pt-5">
+                <img src="image/logofooter/logo-footer.271f8747.webp" alt=""><br>
+                <img class="pt-5" src="image/logofooter/registered.f04fe57d.png " alt="">
+            </div>
+            <div class="col-xl-2 col-md-6 col-sm-12 pt-5">
+                <div class="text-start ms-3">
+                    <h6 class="text-black">PETPRO</h6>
+                    <hr class="text-black">
+                </div>
+                <div> 
+                    <ul class="nav flex-column text-start ">
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">Trang Chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">Kiến Thức</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">Đặc Lịch Hẹn</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">Tuyển Dụng</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">Liên Hệ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-md-6 col-sm-12 pt-5">
+                <div class="text-start ms-3">
+                    <h6 class="text-black">CÂU CHUYỆN PETPRO</h6>
+                    <hr class="text-black">
+                </div>
+                <div> 
+                    <ul class="nav flex-column text-start ">
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">Giới Thiệu Bệnh Viện</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">Đội Ngũ Bác Sĩ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">Trang Thiết Bị Hiện Đại</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">Khách Hàng Nói Về PetPro</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-md-6 col-sm-12 pt-5">
+                <div class="text-start ms-3">
+                    <h6 class="text-black">CHUYÊN KHOA</h6>
+                    <hr class="text-black">
+                </div>
+                <div> 
+                    <ul class="nav flex-column text-start ">
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">Khoa Nhiễm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">Khoa Nội</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">Khoa Ngoại</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">Tiêm Phòng</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">Siêu Âm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">X-Quang</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">Xét Nghiệm</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6 col-sm-12 pt-5">
+                <div class="text-start ms-3">
+                    <h6 class="text-black">DỊCH VỤ</h6>
+                    <hr class="text-black">
+                </div>
+                <div> 
+                    <ul class="nav flex-column text-start ">
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">Cấp Cứu 24/7</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">Khám Bệnh Tại Nhà</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">Chăm Sóc Răng Miệng</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">Thuốc Kê Toa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">Bảo Hiểm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">Dịch Vụ Lưu Chuồng</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">Xuất Cảnh</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">Grooming</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">Đào Tạo</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Copyright -->
+<section class="bg-primary">
+      <div class="container">
+          <div class="text-start p-2">
+            Designed by Masthead 2022 - Copyrighted © PetPro - Vì thú cưng không ngừng vươn tới - Since 1998
+          </div>
+      </div>
+</section>
+
+<!-- swiper -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+var swiper = new Swiper('.mySwiper11', {
+    // Default parameters
+    slidesPerView: 4,
+    spaceBetween: 30,
+    // Responsive breakpoints
+    breakpoints: {
+        
+        1600: {
+            slidesPerView: 4,
+            spaceBetweenSlides: 30
+        },
+       
+        740: {
+            slidesPerView: 1,
+            spaceBetweenSlides: 100
+        },
+
+        500: {
+            slidesPerView: 1,
+            spaceBetweenSlides: 100
+        }  
+    }   
+});   
+
+
+var swiper = new Swiper('.mySwiper22', {
+    // Default parameters
+    slidesPerView: 3,
+    spaceBetween: 30,
+    // Responsive breakpoints
+    breakpoints: {
+        
+        1600: {
+            slidesPerView: 3,
+            spaceBetweenSlides: 30
+        },
+       
+        740: {
+            slidesPerView: 2,
+            spaceBetweenSlides: 100
+        },
+
+        500: {
+            slidesPerView: 2,
+            spaceBetweenSlides: 100
+        }  
+    }   
+});   
+
+
+var swiper = new Swiper('.mySwiper2', {
+    // Default parameters
+    slidesPerView: 6,
+    spaceBetween: 30,
+    // Responsive breakpoints
+    breakpoints: {
+        
+        1600: {
+            slidesPerView: 6,
+            spaceBetweenSlides: 100
+        },
+        1024: {
+            slidesPerView: 5,
+            spaceBetweenSlides: 100
+        },
+       
+        800: {
+            slidesPerView: 4,
+            spaceBetweenSlides: 100
+        },
+
+        600: {
+            slidesPerView: 5,
+            spaceBetweenSlides: 100
+        },
+        500: {
+            slidesPerView: 4,
+            spaceBetweenSlides: 100
+        } 
+    }   
+});      
+
+
+
+
+
+      var swiper = new Swiper('.mySwiper', {
+    // Default parameters
+    slidesPerView: 4,
+    spaceBetween: 30,
+    // Responsive breakpoints
+    breakpoints: {
+        
+        1600: {
+            slidesPerView: 4,
+            spaceBetweenSlides: 30
+        },
+       
+        740: {
+            slidesPerView: 3,
+            spaceBetweenSlides: 100
+        },
+
+        500: {
+            slidesPerView: 2,
+            spaceBetweenSlides: 100
+        }  
+    }   
+});
+
+
+    // kéo xuống khoảng cách 500px thì xuất hiện nút Top-up
+    var offset = 500;
+    // thời gian di trượt 0.75s ( 1000 = 1s )
+    var duration = 300;
+    $(function(){
+    $(window).scroll(function () {
+    if ($(this).scrollTop() > offset)
+    $('#top-up').fadeIn(duration);else
+    $('#top-up').fadeOut(duration);
+    });
+    $('#top-up').click(function () {
+    $('body,html').animate({scrollTop: 0}, duration);
+    });
+    });
+
+
+    window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+ 
+  </script>
+</body>
+</html>
