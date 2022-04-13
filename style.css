@@ -1,5 +1,5 @@
 html {
-  font-family: 16px , Open Sans, sans-serif;
+  font-family: 16px , "Open Sans", sans-serif;
   font-weight: 500;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -16,11 +16,11 @@ html {
 
   body {
     background: #eee;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-family: 16px , "Open Sans", sans-serif;
     color: #000;
     margin: 0;
     padding: 0;
+    
   }
   
 
@@ -81,7 +81,7 @@ html {
 
   .thumbnail {
     position: relative;
-}
+  }
 
 .caption {
     position: absolute;
@@ -119,6 +119,14 @@ html {
   position: fixed;
   top: 15px;
   width: 100%;
+}
+
+.parenNumber{
+  width: 100% !important; 
+}
+
+.btnReadMore{
+  display: list-item;
 }
 
 
