@@ -338,6 +338,10 @@ html {
 
 @media only screen and (max-width:576px){
 
+  .dropdown_icon{
+    position: relative;
+    left: -20px;
+  }
   .logo_center-mobile {
     display: flex;
     align-items: center;
@@ -409,7 +413,7 @@ html {
 
   .navbar-mobile{
       position: relative;
-      left: 10px;
+      left: 24px;
   }  
 
   .text__slider {
